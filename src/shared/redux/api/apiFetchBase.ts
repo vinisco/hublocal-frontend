@@ -17,7 +17,7 @@ export const apiFetchBase: BaseQueryFn<
   unknown,
   FetchBaseQueryError
 > = async (args, api, extraOptions) => {
-  const baseUrl = `http://localhost:3333/`;
+  const baseUrl = `http://startcoding.com.br/`;
 
   const token = sessionStorage.getItem('TOKEN_KEY');
 
