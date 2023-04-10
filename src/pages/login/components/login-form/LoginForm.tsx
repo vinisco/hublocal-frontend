@@ -50,7 +50,7 @@ export const LoginForm: React.FC = () => {
           onSubmit={handleSubmit(onSubmitHandler)}
           autoComplete="off"
         >
-          <Grid container height={'100%'}>
+          <Grid container minHeight={'100vh'}  >
             <StyledFormContainer>
               <Grid item xs={12} md={12}>
                 <StyledPNGContainer>
